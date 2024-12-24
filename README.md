@@ -7,7 +7,8 @@ The given notebooks are self-suffcient for fetching data (crawling), and fine-tu
 You can use ```Fetching-Data-from-PubMed.ipynb``` for fetching the dataset by the given keywords. Such notebook helps find PubMed papers undet that topic for fetching.
 
 ## Step 2:
-After fetching the data, you need to put this into an instruct-input-output format in a json file to let it be trained via ```Fine-Tuning UnSloth on PubMed Articles.ipynb```.
+After fetching the data, you need to put this into an instruction-input-output format in a json file to let it be trained via ```Fine-Tuning UnSloth on PubMed Articles.ipynb```.
+One explanatory example can be ```PubMedAbstracts.json```.
 
 ## Step 3: 
 You can insert prompts for getting outputs from the questions you ask.
